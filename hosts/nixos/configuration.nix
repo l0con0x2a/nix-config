@@ -95,7 +95,6 @@
     brightnessctl
     codex
     eza
-    firefox
     fzf
     gh
     ghq
@@ -108,6 +107,7 @@
     playerctl
     ripgrep
     starship
+    vivaldi
     wl-clipboard
     yazi
     zk
