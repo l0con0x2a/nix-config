@@ -1,10 +1,6 @@
 { config, lib, pkgs, ... }:
 
 {
-  home.packages = with pkgs; [
-    ghq
-  ];
-
   programs.zsh = {
     enable = true;
     dotDir = "${config.home.homeDirectory}/.zsh";

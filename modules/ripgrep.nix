@@ -3,6 +3,7 @@
 {
   programs.ripgrep = {
     enable = true;
+    package = null;
   };
 
   programs.zsh.shellAliases = {

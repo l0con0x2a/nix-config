@@ -3,6 +3,7 @@
 {
   programs.kitty = {
     enable = true;
+    package = null;
 
     themeFile = "Nightfox";
 

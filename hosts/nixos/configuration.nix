@@ -92,6 +92,25 @@
   environment.systemPackages = with pkgs; [
   #  vim # Do not forget to add an editor to edit configuration.nix! The Nano editor is also installed by default.
   #  wget
+    bat
+    btop
+    brightnessctl
+    codex
+    eza
+    firefox
+    fzf
+    gh
+    ghq
+    git
+    helix
+    hyprlauncher
+    kdePackages.dolphin
+    kitty
+    lazygit
+    playerctl
+    ripgrep
+    starship
+    yazi
   ];
 
   services.displayManager.sddm = {

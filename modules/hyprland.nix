@@ -4,13 +4,6 @@ let
   lua = lib.generators.mkLuaInline;
 in
 {
-  home.packages = with pkgs; [
-    hyprlauncher
-    kdePackages.dolphin
-    brightnessctl
-    playerctl
-  ];
-
   wayland.windowManager.hyprland = {
     enable = true;
     package = null;
