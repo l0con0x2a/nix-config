@@ -3,6 +3,7 @@
 {
   programs.helix = {
     enable = true;
+    package = null;
 
     settings = {
       theme = "nightfox";
